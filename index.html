@@ -22,38 +22,47 @@
   </head>
 
   <body>
-    <header class="header none">
+    <header class="header">
       <div class="container">
-        <nav class="nav">
-          <a class="link-logo" href="./index.html"
-            >Web<span class="accent">Studio</span></a
-          >
-          <ul class="nav-menu">
-            <li class="nav-menu-list">
-              <a class="link studio" href="./index.html">Studio</a>
-            </li>
-            <li class="nav-menu-list">
-              <a class="link" href="">Portfolio</a>
-            </li>
-            <li class="nav-menu-list">
-              <a class="link" href="">Contacts</a>
-            </li>
-          </ul>
-        </nav>
-        <address class="address">
-          <ul class="address-menu">
-            <li>
-              <a class="contact-link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a class="contact-link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
+        <a class="link-logo" href="./index.html"
+          >Web<span class="accent">Studio</span></a
+        >
+
+        <button type="button" class="burger-btn">
+          <svg width="24" height="24">
+            <use href="./images/icons.svg#burger-menu"></use>
+          </svg>
+        </button>
+
+        <div class="mobile-menu none">
+          <nav class="nav">
+            <ul class="nav-menu">
+              <li class="nav-menu-list">
+                <a class="link studio" href="./index.html">Studio</a>
+              </li>
+              <li class="nav-menu-list">
+                <a class="link" href="">Portfolio</a>
+              </li>
+              <li class="nav-menu-list">
+                <a class="link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="address">
+            <ul class="address-menu">
+              <li>
+                <a class="contact-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a class="contact-link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
       </div>
     </header>
 
@@ -66,7 +75,7 @@
         </div>
       </section>
       <!-- second section advantages   -->
-      <section class="advantages none" id="advantages">
+      <section class="advantages section" id="advantages">
         <div class="container">
           <h2 class="section-title visually-hidden">Second title</h2>
           <ul class="advantages-list">
@@ -123,7 +132,7 @@
         </div>
       </section>
       <!-- third section Team -->
-      <section class="team none" id="team">
+      <section class="team section" id="team">
         <div class="container">
           <h2 class="section-title">Our Team</h2>
           <ul class="team-list">
@@ -303,7 +312,7 @@
         </div>
       </section>
       <!-- fourth section Our Portfolio -->
-      <section class="portfolio none" id="portfolio">
+      <section class="portfolio section none" id="portfolio">
         <div class="container">
           <h2 class="section-title">Our Portfolio</h2>
           <ul class="portfolio-list">
