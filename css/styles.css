@@ -11,7 +11,7 @@
 @import url(./social.css);
 @import url(./mobile-menu.css);
 @import url(./footer.css);
-@import url(./modal-overlay.css);
+@import url(./modal-view.css);
 
 :root {
   --main-color: #4d5ae5;

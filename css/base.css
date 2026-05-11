@@ -9,6 +9,10 @@ body {
 
   background-color: #ffffff;
 }
+body:has(.modal-overlay.is-open),
+body:has(.mobile-menu.is-open) {
+  overflow: hidden;
+}
 
 h1,
 h2,
