@@ -2,9 +2,9 @@
   display: flex;
   justify-content: center;
   gap: 24px;
-  width: 232px;
+  /* width: 232px;
   height: 40px;
-  padding: 32px 0;
+  padding: 32px 0; */
 }
 
 .social-link {

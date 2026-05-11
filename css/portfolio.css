@@ -1,17 +1,5 @@
-.portfolio {
-  padding: 96px 0;
-}
-
 .portfolio .container {
   padding: 0 16px;
-
-  @media screen and (min-width: 768px) {
-    padding: 0 108px;
-  }
-
-  @media screen and (min-width: 1158px) {
-    padding: 120px 0;
-  }
 }
 
 .portfolio-items {
@@ -87,7 +75,6 @@
   height: 100%;
 
   background-color: #4d5ae5;
-
   padding: 40px 32px;
 
   transform: translateY(100%);
